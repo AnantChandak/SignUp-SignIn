@@ -1,0 +1,17 @@
+.login-form{
+    background: #edeef7;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0 0 10px 0 #000;
+}
+
+.btn{
+    margin-top: 1em;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 1em;
+}

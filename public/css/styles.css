@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.navbar{
+    padding: 2em 0;
+}
+
+.navbar-brand{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.nav-item{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover{
+    background: #262626;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: black;
+    padding: 5px 20px;
+}
+
+.main-photo{
+    position: relative;
+    background: url(main-photo.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 15.625em 0 12.5em;
+}
+
+.main-photo h2{
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.main-photo p{
+    margin: 1em 0 0;
+    padding: 0;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.navbar-brand{
+    color:black !important;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 1em;
+}
+@media (max-width : 990px){
+    .navbar-brand{
+        color:black !important;
+        font-weight: 900;
+    }
+    .navbar-collapse{
+        background-color: #edeef7;
+    }
+    .main-photo{
+        min-height: 100vh;
+    }
+}
+@media (max-width : 768px){
+    .main-photo{
+        padding: 200px 0;
+    }
+    .main-photo h2{
+        font-size: 1.8em;
+    }
+}
+
+#important-topics{
+    padding: 5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.important-col{
+    padding: 3% 2%;
+}
